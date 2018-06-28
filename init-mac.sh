@@ -18,6 +18,8 @@ brew cask install iterm2 &
 
 brew cask install java &
 brew cask install google-chrome &
+brew cask install alfred &
+brew cask install shadowsocksx-ng &
 
 
 # 安装spf13-vim  参考https://github.com/spf13/spf13-vim
