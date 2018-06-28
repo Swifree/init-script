@@ -13,7 +13,9 @@ brew install go &
 # terminal的SF Mono字体挺好看的，复制到系统字体库，iterm2也可以用这个字体了
 cp -R /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/. /Library/Fonts/
 brew install zsh &
-# 安装完iterm2后进入Profiles -> Colors -> Color Presets选择Tango Dark,  Profiles -> Window -> Transparency调到50%左右，可好看了
+# 安装完iterm2后进入Profiles -> Colors -> Color Presets选择Tango Dark
+# 然后进入Profiles -> Window -> Transparency调到50%左右，可好看了,colomns:170,rows:100
+# Text 12pt SF Mono Semibold
 brew cask install iterm2 &
 
 brew cask install java &
