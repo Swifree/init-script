@@ -15,7 +15,7 @@ cp -R /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/. /Library/F
 brew install zsh &
 # 安装完iterm2后进入Profiles -> Colors -> Color Presets选择Tango Dark
 # 然后进入Profiles -> Window -> Transparency调到50%左右，可好看了,colomns:170,rows:100
-# Text 12pt SF Mono Semibold
+# Profiles -> Text 12pt SF Mono Semibold， Keys-> hotkey设置唤起iterm的快捷键，我一般用cmd + option + t
 brew cask install iterm2 &
 
 brew cask install java &
