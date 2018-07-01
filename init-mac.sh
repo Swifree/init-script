@@ -54,6 +54,7 @@ brew cask install java &
 
 brew cask install google-chrome &
 brew cask install shadowsocksx-ng &
+brew cask install iina &
 
 # 安装spf13-vim  参考https://github.com/spf13/spf13-vim
 curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh &
