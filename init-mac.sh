@@ -50,14 +50,16 @@ fi &
 # Profiles -> Text 12pt SF Mono Semibold， Keys-> hotkey设置唤起iterm的快捷键，我一般用cmd + option + t
 brew cask install iterm2 &
 
-brew cask install java &
+brew cask install java8
+addConfigIFNX 'export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home'
+
+if [ $(notFound mvn) -gt 0 ]
+then 
+    brew install maven
+fi &
 
 brew cask install google-chrome &
 brew cask install shadowsocksx-ng &
-brew cask install iina &
 
 # 安装spf13-vim  参考https://github.com/spf13/spf13-vim
 curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh &
-
-
-
